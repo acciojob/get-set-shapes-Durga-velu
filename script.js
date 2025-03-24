@@ -8,7 +8,7 @@ class Rectangle {
 		return `${this.width} ${this.height}`
 	}
 	getArea(){
-		return return `${this.width}*${this.height}`
+		return `${this.width}*${this.height}`
 	}
 }
 
