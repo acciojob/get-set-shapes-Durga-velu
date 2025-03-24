@@ -1,4 +1,3 @@
-
 //complete this code
 class Rectangle {
 	constructor(width,height){
@@ -15,6 +14,7 @@ class Rectangle {
 }
 
 class Square extends Rectangle {
+
 	constructor(side){
 		super();
 		
