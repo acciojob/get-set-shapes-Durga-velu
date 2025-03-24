@@ -1,3 +1,4 @@
+
 //complete this code
 class Rectangle {
 	constructor(width,height){
@@ -8,18 +9,21 @@ class Rectangle {
 		return `${this.width} ${this.height}`
 	}
 	getArea(){
-		return `${this.width}*${this.height}`
+		return	 this.width*this.height
+		 
 	}
 }
 
 class Square extends Rectangle {
 
-constructor(width,height,side){
+constructor(width,height){
 	super();
-	this.side=side;
+	
 	this.width=width;
 	this.height=height;
+	
 }
+
 
 	getPerimeter(){
 		return 4*this.side
