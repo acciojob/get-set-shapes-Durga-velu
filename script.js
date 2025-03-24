@@ -15,12 +15,10 @@ class Rectangle {
 }
 
 class Square extends Rectangle {
-
-constructor(width,height){
+constructor(side){
 	super();
 	
-	this.width=width;
-	this.height=height;
+	this.side=side;
 	
 }
 
