@@ -1,5 +1,13 @@
 //complete this code
-class Rectangle {}
+class Rectangle {
+	constructor(width,height){
+		this.width=width;
+		this.height=height;
+	}
+	get rectangle(){
+		return `${width} ${height}`
+	}
+}
 
 class Square extends Animal {}
 
